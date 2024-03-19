@@ -3,9 +3,7 @@
     justify-content: space-around;
     align-items: center;
     color: white;
-    padding:70px;  
-
- 
+    padding:70px;   
 }
 
 .card-right{
@@ -23,7 +21,6 @@
 .card-content span{
     display: block;
     text-align: left;
-
 }
 
 

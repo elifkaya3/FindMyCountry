@@ -8,8 +8,8 @@ const CountryCardDetail = ({ title,capital,languages,population, imageUrl, offic
       <div className="country-detail">
         <div>
             <img src={imageUrl} alt={title} className='countryImg'/>
-
         </div>
+        
         <div className='card-right'>
             <div className="card-content">
             <span><h3>{title}</h3></span> 

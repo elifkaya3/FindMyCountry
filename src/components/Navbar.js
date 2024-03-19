@@ -11,16 +11,11 @@ const Navbar = () => {
           <a>Find My Country</a>
         </div>
 
+{/* ul içindeki itemler görsel olarak eklendi */}
         <ul className="menu">
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/About">About Us</a>
-          </li>
-          <li>
-            <a href="/Contact">Contact</a>
-          </li>
+          <li> <a href="/">Home</a> </li>
+          <li> <a href="/About">About Us</a> </li>
+          <li> <a href="/Contact">Contact</a> </li>
         </ul>
       </nav>
     </>
