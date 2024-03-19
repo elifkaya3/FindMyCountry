@@ -1,0 +1,10 @@
+.container{
+    width: 100%; 
+
+}
+
+@media (min-width: 400px) {
+    .div-container {
+      display: flex;
+    }
+}

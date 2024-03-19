@@ -1,0 +1,29 @@
+.country-detail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding:70px;  
+
+ 
+}
+
+.card-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+} 
+.countryImg {
+  width: 700px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.card-content span{
+    display: block;
+    text-align: left;
+
+}
+
+
