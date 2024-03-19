@@ -14,13 +14,13 @@ body{
 .search-input {
   background-color: #433f3f;
   border: 4px solid #ffd52d;
-  padding: .5em 1.25em;
+  padding: 8px 20px;
   font-size: 1.5rem;
-  width: 40%;
   font-family: 'Raleway', sans-serif;
   border-radius: 50vh;
   color: #ffd52d;
-
+  width: 100%;
+  max-width: 500px;
 }
   
 .search-input:focus {
