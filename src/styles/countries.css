@@ -21,16 +21,16 @@
   align-items: center;
 }
 .country-image {
-  width: 600px;
-  height: 300px;
+  width: 400px;
+  height: 200px;
   object-fit: cover;
   margin: 15px;
 }
 
 .card-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
   }
 
 .card-content span{

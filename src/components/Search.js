@@ -9,7 +9,7 @@ const Search = ({ setkeyword }) => {
           type="text"
           onChange={(e) => setkeyword(e.target.value)}
           className="search-input"
-          placeholder="Search countries by Name and Capital "
+          placeholder="Search countries by Name"
         />
       </div>
     </>

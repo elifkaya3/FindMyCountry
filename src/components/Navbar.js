@@ -7,15 +7,14 @@ const Navbar = () => {
     <>
       <nav>
         <div className="logo">
-          <img src={logo} alt="Logo" />
-          <a>Find My Country</a>
+          <img src={logo} alt="Logo" href="/" />
+          <a href="/">Find My Country</a>
         </div>
 
-{/* ul içindeki itemler görsel olarak eklendi */}
         <ul className="menu">
           <li> <a href="/">Home</a> </li>
-          <li> <a href="/About">About Us</a> </li>
-          <li> <a href="/Contact">Contact</a> </li>
+          {/* <li> <a href="/About">About Us</a> </li>
+          <li> <a href="/Contact">Contact</a> </li> */}
         </ul>
       </nav>
     </>
